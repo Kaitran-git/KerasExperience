@@ -1,0 +1,74 @@
+[
+    {
+        "id": "model-1",
+        "model_name": "Model 1",
+        "num_samples": 23,
+        "pos_encode_dims": 16,
+        "epochs": 20,
+        "training_time": "6 min",
+        "psnr": 18.75,
+        "val_psnr": 18.61,
+        "gif_path": "/nerf_data/model_1/training1.gif",
+        "mp4_path": "/nerf_data/model_1/rgb_video1.mp4"
+    },
+    {
+        "id": "model-2",
+        "model_name": "Model 2",
+        "num_samples": 64,
+        "pos_encode_dims": 16,
+        "epochs": 100,
+        "training_time": "53 min",
+        "psnr": 23.12,
+        "val_psnr": 22.43,
+        "gif_path": "/nerf_data/model_2/training3.gif",
+        "mp4_path": "/nerf_data/model_2/rgb_video3.mp4"
+    },
+    {
+        "id": "model-3",
+        "model_name": "Model 3",
+        "num_samples": 64,
+        "pos_encode_dims": 5,
+        "epochs": 100,
+        "training_time": "15 min",
+        "psnr": 23.40,
+        "val_psnr": 22.72,
+        "gif_path": "/nerf_data/model_3/training2.gif",
+        "mp4_path": "/nerf_data/model_3/rgb_video2.mp4"
+    },
+    {
+        "id": "model-4",
+        "model_name": "Model 4",
+        "num_samples": 128,
+        "pos_encode_dims": 12,
+        "epochs": 200,
+        "training_time": "2 hour 5 min",
+        "psnr": 24.68,
+        "val_psnr": 24.15,
+        "gif_path": "/nerf_data/model_4/training4.gif",
+        "mp4_path": "/nerf_data/model_4/rgb_video4.mp4"
+    },
+    {
+        "id": "model-5",
+        "model_name": "Model 5",
+        "num_samples": 128,
+        "pos_encode_dims": 14,
+        "epochs": 300,
+        "training_time": "3 hour 8 min",
+        "psnr": 25.86,
+        "val_psnr": 25.02,
+        "gif_path": "/nerf_data/model_5/training5.gif",
+        "mp4_path": "/nerf_data/model_5/rgb_video5.mp4"
+    },
+    {
+        "id": "model-6",
+        "model_name": "Model 6",
+        "num_samples": 192,
+        "pos_encode_dims": 14,
+        "epochs": 350,
+        "training_time": "6 hour 28 min",
+        "psnr": 26.77,
+        "val_psnr": 25.31,
+        "gif_path": "/nerf_data/model_6/training6.gif",
+        "mp4_path": "/nerf_data/model_6/rgb_video6.mp4"
+    }
+]
